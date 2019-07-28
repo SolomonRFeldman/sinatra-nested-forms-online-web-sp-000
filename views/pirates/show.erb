@@ -4,5 +4,9 @@
 
 <h2>Ships</h2>
 
+<% @ships.each do |ship| %>
+<h3><%= ship.name %></h3>
+<p>Type<%= ship.type %></p>
+<% end %>
 
 
